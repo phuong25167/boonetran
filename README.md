@@ -19,8 +19,9 @@
       </body>
       <h1> PRIVATE PROJECT </h1>
       <body>
-            <h2> PROJECT 3 (PRIVATE) Choose the excel + air purifier + Naomi Project </h2>
+            <h2> PROJECT 1 (Technical) Choose the excel + air purifier + Naomi Project </h2>
             <p> Pictures + Videos + Explanation </p>
+            <h2> PROJECT 2 (Amway)
       </body>
       <h1>
             AWARDS
