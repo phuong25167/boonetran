@@ -3,7 +3,7 @@
             Mechanical & Manufacturing Engineering | Mathematics
       </body>
       <h1>
-          OREGON TOOL PROJECTS
+          OREGON TOOL PROJECTS (Need Link)
       </h1>
       <body>
             <h2> PROJECT 1 </h2>
@@ -12,7 +12,7 @@
             <p> Pictures 2 + ... </p>
             <h2> Adding Appraisal file </h2>
       </body>
-      <h1> OPENS LAB PROJECTS </h1>
+      <h1> OPENS LAB PROJECTS (Need Link) </h1>
       <body>
             <h2> PROJECT 1 </h2>
             <p> ... </p>
@@ -24,7 +24,7 @@
       <body>
             <h2> PROJECT 1 (Technical) Choose the excel + air purifier + Naomi Project </h2>
             <p> Pictures + Videos + Explanation </p>
-            <h2> PROJECT 2 (Amway) </h2>
+            <h2> PROJECT 2 (Amway - Need Link) </h2>
       </body>
       <h1>
             AWARDS
@@ -35,4 +35,6 @@
             <h2> IELTS 7.0 </h2>
             <p> Picture </p>
       </body>
+      <h1> HOBBY </h1>
+      <p> ... </p>
 </html>
