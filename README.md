@@ -1,16 +1,11 @@
 <html>
       <h1>
-          ABOUT ME
+          PROJECTS
       </h1>
       <body>
-            <h2> Projects </h2>
-            <h3>
-                Project 1
-            </h3>
+            <h2> PROJECT 1 </h2>
             <p> Pictures + Progress "("How you solve the problem")"</p>
-            <h4>
-                Project 2
-            </h4>
+            <h2> PROJECT 2 </h2>
             <p> Pictures 2 + ... </p>
-        </body>
+      </body>
 </html>
