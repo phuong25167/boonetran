@@ -1,6 +1,6 @@
 <html>
       <h1>
-          About Phuong Nguyen Tran
+          ABOUT ME
       </h1>
       <body>
             <h2> Projects </h2>
