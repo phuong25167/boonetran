@@ -24,7 +24,7 @@
       <body>
             <h2> PROJECT 1 (Technical) Choose the excel + air purifier + Naomi Project </h2>
             <p> Pictures + Videos + Explanation </p>
-            <h2> PROJECT 2 (Amway </h2>
+            <h2> PROJECT 2 (Amway) </h2>
       </body>
       <h1>
             AWARDS
