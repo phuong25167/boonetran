@@ -1,5 +1,5 @@
 <html>
-      <img src="images/
+      <img src="images/profile pic.png">
       <head> Phuong Nguyen Tran </head>
       <body>
             Mechanical & Manufacturing Engineering | Mathematics
