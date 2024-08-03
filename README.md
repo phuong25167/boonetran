@@ -1,6 +1,7 @@
 <html>
-      <img src="images/profile pic.png" height="100" alt="Profile Picture">
-      <head> Phuong Nguyen Tran </head>
+      <div class="row">
+            <img src="images/profile pic.png" height="100" alt="Profile Picture">
+      </div>
       <body>
             Mechanical & Manufacturing Engineering | Mathematics
       </body>
