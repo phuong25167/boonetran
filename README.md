@@ -1,9 +1,9 @@
 <html>
-      <div class="row">
-            <img src="images/profile pic.png" height="100" alt="Profile Picture">
-      </div>
       <body>
             Mechanical & Manufacturing Engineering | Mathematics
+            <div class="row">
+                  <img src="images/profile pic.png" height="100" alt="Profile Picture">
+            </div>
       </body>
       <h2>
           OREGON TOOL PROJECTS (Need Link)
