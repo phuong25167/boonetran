@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="../../Home.css">
+    <link rel="stylesheet" href="OT Proj.css">
     <title>Portfolio Website</title>
 </head>
 <body>
     <header>
         <div class="dropdown">
-            <a href="../../index.html" class="logo"> Boonie D </a>
+            <a href="../../index.html" class="logo"> Phuong Tran </a>
             <div class="dropdown-content">
                 <a href="../../index.html"> Home </a>
                 <a href="../../Resume/Resume.html"> Resumé </a>
-                <a href="../../Project/" class="active"> Projects </a>
-                <a href="../../Exp/Experience.html" >Experience</a>
+                <a href="../../Project/Projects.html" class="active"> Projects </a>
+                <a href="../../Exp/Experience.html" >Extracurricular</a>
                 <a href="../../Honor/Honor.html" >Honor & Awards</a>
             </div>
         </div>
@@ -27,7 +27,7 @@
 
             <!-- Prj dropdown -->
             <div class="dropdown">
-                <a href="#" class="active">Projects</a>
+                <a href="../Projects.html" class="active">Projects</a>
                 <div class="dropdown-content">
                     <a href="#" class="active">Oregon Tool</a>
                     <a href="../Personal Prj/PriPrj.html">Personal Project</a>
@@ -36,82 +36,85 @@
             </div>
 
 
-            <a href="../../Exp/Experience.html" >Experience</a>
+            <a href="../../Exp/Experience.html" >Extracurricular</a>
             <a href="../../Honor/Honor.html" >Honor & Awards</a>
         </nav>
     </header>
 
+
     <!-- Pan Splitter -->
     <section class="home">
-        <div class="home-img">
-            <img src="Prj detail/images/Pan Splitter DWG.png" alt="">
+        <div class="image-container">
+            <h3><i class="fa-solid fa-cube"></i><a href="Prj detail/Pan Splitter.html"> Pan Splitter </a> </h3>
+            <p><i class="fas fa-location-dot"></i> Portland, OR | 2023 </p>
+        </div>
+
+        <div class="home-content">
+            <img src="Prj detail/images/Pan Splitter DWG.png">
+            <p><i class="fas fa-arrows-to-circle"></i><b> Problem Statement: </b> Cone type divider unequally distributed between 3 pans created scrap at FKS35 in Part Processing Department </p>
+            <p><i class="fas fa-handshake-simple"></i><b> Stakeholders: </b>Part Processing / Heat Treat, Manufacturing Engineer, CAD Design </p>
+            <p><i class="fas fa-piggy-bank"></i><b> Financial & Physical Impact:</b> From 2016 - 2022, Increased from 125.6 lb to 1118.5 lb. Costing at least <i>$2800/year</i></p>        </div>
+        
+
+        <!-- Conveyor Lifter -->
+        <div class="image-container">
+            <h3><i class="fa-solid fa-arrows-split-up-and-left"></i><a href="Prj detail/Con Lifter.html"> Conveyor Lifter </a> </h3>
+            <p><i class="fas fa-location-dot"></i> Portland, OR | 2023 </p>
+        </div>
+    
+        <div class="home-content">
+            <img src="Prj detail/images/Pan Splitter DWG.png">
+            <p><i class="fas fa-arrows-to-circle"></i><b> Problem Statement: </b> The Conveyors on Press 4, 7, and M3 need to be repositioned to properly collect parts from the Die Output Chute </p>
+            <p><i class="fas fa-handshake-simple"></i><b> Stakeholders: </b> Blanking, Manufacturing Engineering, Maintenance Mechanist, CAD Design Department </p>
+            <p><i class="fas fa-piggy-bank"></i><b> Financial & Physical Impact:</b>  Each press generated $750 of scrap per year on average. Required labor intensive cleaning and left a disorderly work environment</i></p>
+        </div>
+
+        <!-- Assem Data -->
+        <div class="image-container">
+            <h3><i class="fa-solid fa-chart-simple"></i><a href="Prj detail/Assem Data.html"> Assembly Machine Data </a> </h3>
+            <p><i class="fas fa-location-dot"></i> Portland, OR | 2023 </p>
         </div>
         <div class="home-content">
-            <a href="Prj detail/Pan Splitter.html"><h3><span> Pan Splitter </span></h3></a>
-            <p><b> Problem Statement: </b> Cone type divider unequally distributed between 3 pans created scrap at FKS35 in Part Processing Department </p>
-            <p><b> Stakeholders: </b>Part Processing / Heat Treat, Manufacturing Engineer, CAD Design </p>
-            <p><b> Financial & Physical Impact:</b> From 2016 - 2022, Increased from 125.6 lb to 1118.5 lb. Costing at least <i>$2800/year</i></p>
+            <img src="Prj detail/images/Conveyor Lifter 2.png"  >
+            <p><i class="fas fa-arrows-to-circle"></i><b> Problem Statement: </b>  In the Cockpit's Chain Assembly raw data, it shows only the number of faults for each machine while we want to see the number of faults/hour </p>
+            <p><i class="fas fa-handshake-simple"></i><b> Stakeholders: </b> Continuous Improvement, Assembly Department, Manufacturing Engineers </p>
+            <p><i class="fas fa-piggy-bank"></i><b> Financial & Physical Impact:</b> Filtered out over 500,000 rows of data (Number of Faults, Stroke, Runtime, Performance over 3 years) </p>        
         </div>
+
+    <!-- Changeover -->
+        <div class="image-container">
+            <h3><i class="fa-solid fa-filter"></i><a href="Prj detail/Changeover.html"> Cutter Grinder Changeover </a> </h3>
+            <p><i class="fas fa-location-dot"></i> Portland, OR | 2023 </p>
+        </div>
+        <div class="home-content">
+            <img src="Prj detail/images/Conveyor Lifter 2.png">      
+            <p><i class="fas fa-arrows-to-circle"></i><b> Problem Statement: </b> The Changeover Process from 4 Cutter Grinders – 18HX and 19HX – (48, 49, 80, 81) took 3 hours per machine on average </p>
+            <p><i class="fas fa-handshake-simple"></i><b> Stakeholders: </b> Manufacturing Engineering, Machine Build, Cutter Grinder Department </p>
+            <p><i class="fas fa-piggy-bank"></i><b> Financial & Physical Impact:</b> 3 hours down time per machine during changeover, leading to slow productions for both Cutters, affecting Operator’s and Machine Build’s time </i></p>        
+        </div>
+                
+
+    <!-- Flood Control -->
+        <div class="image-container">
+            <h3><i class="fa-solid fa-house-flood-water"></i><a href="Prj detail/Flood.html"> CNC Flood Control </a> </h3>
+            <p><i class="fas fa-location-dot"></i> Portland, OR | 2023 </p>
+        </div>
+        <div class="home-content">
+            <img src="Prj detail/images/Conveyor Lifter 2.png"  >
+            <p><i class="fas fa-arrows-to-circle"></i><b> Problem Statement: </b> Flooding incidents at the CNC Grinders, which were not properly documented and caused significant labor expenses and unground cutters, highlight a failure in the control system and the lack of data on the root cause </p>
+            <p><i class="fas fa-handshake-simple"></i><b> Stakeholders: </b> Grinder, Manufacturing Engineer, CAD Design </p>
+            <p><i class="fas fa-piggy-bank"></i><b> Financial & Physical Impact:</b> The root cause of the flooding issue was successfully identified and resolved, with approved countermeasures now being procured and implemented to prevent future occurrences </p>        
+        </div>
+                
+        <embed src="MECOP Intern Offer Letter, Phuong Tran.pdf" width="50%">
+
+        <a href="OT Presentation.pdf" download="" <embed src="OT Presentation.pdf" width=50% height=500vh>
+        <embed src="OT Report.pdf">
+        <embed src="Phuong Tran - 2023 Mentor Final Appraisal.pdf">
+
     </section>
 
-    <!-- Conveyor Lifter -->
-    <section class="home">    
-        <div class="home-img">
-            <img src="Prj detail/images/Conveyor Lifter 2.png" alt="">
-        </div>
-        <div class="home-content">
-            <a href='Prj detail/Con Lifter.html'><h3><span> Conveyor Lifter </span></h3></a>
-            <p> <b> Problem Statement: </b> The Conveyors on Press 4, 7, and M3 need to be repositioned to properly collect parts from the Die Output Chute </p>
-            <p> <b> Stakeholders: </b> Blanking, Manufacturing Engineering, Maintenance Mechanist, CAD Design Department </p>
-            <p> <b> Financial & Physical Impact: </b> Each press generated $750 of scrap per year
-                on average. Required labor intensive cleaning and left a disorderly work
-                environment</p>
-        </div>
-    </section>
 
-    <!-- Assem Data -->
-    <section class="home">    
-        <div class="home-img">
-            <img src="Prj detail/images/Assembly Machine Data.png" alt="">
-        </div>
-        <div class="home-content">
-            <a href='Prj detail/Assem Data.html'><h3><span> Assembly Data </span></h3></a>
-            <p> <b> Problem Statement: </b> The Conveyors on Press 4, 7, and M3 need to be repositioned to properly collect parts from the Die Output Chute </p>
-            <p> <b> Stakeholders: </b> Blanking, Manufacturing Engineering, Maintenance Mechanist, CAD Design Department </p>
-            <p> <b> Financial & Physical Impact: </b> Each press generated $750 of scrap per year
-                on average. Required labor intensive cleaning and left a disorderly work
-                environment</p>
-        </div>
-    </section>
 
-        <!-- Changeover -->
-    <section class="home">    
-        <div class="home-img">
-            <img src="Prj detail/images/Conveyor Lifter 2.png" alt="">
-        </div>
-        <div class="home-content">
-            <a href='Prj detail/Changeover.html'><h3><span> Cutter-Grind Changeover </span></h3></a>
-            <p> <b> Problem Statement: </b> The Conveyors on Press 4, 7, and M3 need to be repositioned to properly collect parts from the Die Output Chute </p>
-            <p> <b> Stakeholders: </b> Blanking, Manufacturing Engineering, Maintenance Mechanist, CAD Design Department </p>
-            <p> <b> Financial & Physical Impact: </b> Each press generated $750 of scrap per year
-                on average. Required labor intensive cleaning and left a disorderly work
-                environment</p>
-        </div>
-    </section>
-
-        <!-- Flood Control -->
-    <section class="home">    
-        <div class="home-img">
-            <img src="Prj detail/images/Conveyor Lifter 2.png" alt="">
-        </div>
-        <div class="home-content">
-            <a href='Prj detail/Flood.html'><h3><span> CNC Flood Control </span></h3></a>
-            <p> <b> Problem Statement: </b> The Conveyors on Press 4, 7, and M3 need to be repositioned to properly collect parts from the Die Output Chute </p>
-            <p> <b> Stakeholders: </b> Blanking, Manufacturing Engineering, Maintenance Mechanist, CAD Design Department </p>
-            <p> <b> Financial & Physical Impact: </b> Each press generated $750 of scrap per year
-                on average. Required labor intensive cleaning and left a disorderly work
-                environment</p>
-        </div>
-    </section>
 </body>
 </html>

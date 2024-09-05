@@ -383,6 +383,10 @@ span{
     font-size: 2rem;
 }
 
+.home .image-container a{
+    color: black;
+}
+
 .image-container h3 {
     color: black;
     font-size: 4rem;
@@ -409,7 +413,7 @@ span{
 .home .images img{
     float: left;
     padding: 0.5rem;
-    width: 40vw;
+    width: 20vw;
 }
 
 .home-content p{

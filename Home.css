@@ -355,7 +355,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8rem;
+    gap: 9rem;
     background-color: hsl(240, 67, 94);
 }
 
@@ -373,12 +373,33 @@ span{
     font-size: 4rem;
     margin-bottom: 1rem;
     font-weight: 700;
+    white-space: nowrap;
+}
+
+.image-container h3 {
+    color: black;
+    font-size: 4rem;
+    font-weight: 500;
+    align-items: center;
+}
+
+.images img{
+    border-radius: 10%;
+}
+
+.home .images {
+    display: flex;
+}
+
+.home .images img{
+    float: left;
+    padding: 1rem;
+    display: block;
 }
 
 .home-content p{
     font-size: 1.6rem;
 }
-
 
 .home-img img{
     position: relative;
