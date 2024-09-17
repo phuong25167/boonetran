@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.column {
+    position: absolute;
+    z-index: -1;
+}
+
+
+.navbar {
+    background-color: rgb(51, 49, 49);
+    height: 50px;
+    margin-top: 10%;
+}
+
+.my-list {
+    margin-left: 0;
+}
+
+
+a{
+    color: red;
+}
+html{
+    font-size: 100%;
+}
+header {
+    text-align: center;
+    background-color: transparent;
+    padding: 0px;
+    color: white;
+    margin-top: 20px;
+    position: fixed;
+    filter: drop-shadow(10px);
+    display: flex;
+
+}
+p {
+                  
+    margin-top: 0px;
+}
+ul {
+    margin-top: 0px;
+}
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    float: left;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+    
+}
+h1{
+    display: block;
+    clear: both;
+    background-color: hsl(0%, 0%, 86%);
+    text-align: center;
+    padding: 10px;
+}
+
+h3 {
+    text-decoration: underline;
+    text-decoration:solid;
+}
+
+/* PJECT */
+pan {
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+press {
+    width: 20%;
+    float: left;
+    padding: 10px;
+
+}
+assemdata {
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+changeover {
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+flood {
+    width: 20%;
+    float: left;
+    padding: 10px;
+
+}
+
+
+
+
+embed {
+
+    width: 50%;
+    border: 3px solid #ccc;    
+
+}
