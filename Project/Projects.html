@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="../Honor/Honor.css">
+    <title>Portfolio Website</title>
+
+
+</head>
+<body>
+
+    <header>
+        <div class="dropdown">
+            <a href="../index.html" class="logo"> Phuong Tran </a>
+            <div class="dropdown-content">
+                <a href="../index.html"> Home </a>
+                <a href="../Resume/Resume.html"> Resumé </a>
+                <a href="#" class="active"> Projects </a>   
+                <a href="../Exp/Experience.html" >Extracurricular</a>
+                <a href="../Honor/Honor.html" >Honor & Awards</a>
+            </div>
+        </div>
+        <nav>
+            <a href="../index.html"> Home</a>
+            <a href="../Resume/Resume.html" >Resumé</a>
+            <!-- Prj dropdown -->
+            <div class="dropdown">
+                <a href="#" class="active">Projects</a>
+                <div class="dropdown-content">
+                    <a href="../Project/Oregon Tool/OT Proj.html">Oregon Tool</a>
+                    <a href="../Project/Personal Prj/PriPrj.html">Personal Project</a>
+                    <a href="../Project/Opens Lab/OpensLab.html">Opens Lab</a>
+                </div>
+            </div>
+
+            <a href="../Exp/Experience.html">Extracurricular</a>
+            <a href="../Honor/Honor.html" >Honor & Awards</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="image-container">
+            <h3>  <i class="fa-solid fa-industry"></i><a href="Oregon Tool/OT Proj.html"> Oregon Tool </a> </h3>
+            <p><i class="fas fa-location-dot"></i> Portland, OR | 2023 </p>
+        </div>
+        <img src="Oregon Tool/Oregon-Tool-social-share-image.webp" width="50%">
+    </section>
+
+    
+    <section class="home">
+        <div class="image-container">
+            <h3><i class="fas fa-microscope"></i><a href="Opens Lab/OpensLab.html"> OPEnS Lab </a></h3>
+            <p><i class="fas fa-location-dot"></i>  Corvallis, OR | 2020 - 2023 </p>
+        </div>
+        <img src="Opens Lab/images Open/Screenshot 2024-09-12 140907.png" width="80%" >
+    </section>
+
+    <section class="home">
+        <div class="image-container">
+            <h3>  <i class="fa-solid fa-robot"></i> Robotic & Human Control Systems Lab </h3>
+            <p><i class="fas fa-location-dot"></i> Corvallis, OR | 2024 </p>
+        </div>
+        <div class="images">
+            <img src="Robotic/image Rob/IMG_1644.jpg" width="30%">
+            <img src="Robotic/image Rob/IMG_1646.jpg" width="30%">
+            <img src="Robotic/image Rob/IMG_1645.JPG" width="30%">
+        </div>
+    </section>
+
+    <section class="home">
+        <div class="image-container">
+            <h3><i class="fas fa-diagram-project"></i><a href="Personal Prj/PriPrj.html"> Personal Project </a></h3>
+            <p><i class="fas fa-location-dot"></i>  Corvallis, OR | 2023 </p>
+        </div>
+        <div class="images">
+            <img src="Personal Prj/images PP/Screenshot 2024-09-12 141557.png" width="60%" >
+            <video id="myVideo" width="30%" height="500vh" autoplay muted controls >
+                <source src="Personal Prj/images PP/IMG_9855.MOV">
+            </video>
+        </div>
+    </section>
+
+    <script>
+        const video = document.getElementById("myVideo");
+        const startTime = 13;  // start playing from the 5th second
+        const endTime = 23;
+        video.addEventListener('loadedmetadata', function() {
+            video.currentTime = startTime;
+        });
+        video.addEventListener('timeupdate', function() {
+            if (video.currentTime >= endTime) {
+                video.currentTime = startTime;  // Reset to the start time
+                video.play();  // Play from the start time again
+            }
+        });
+    </script>
+
+</body>
+</html>
