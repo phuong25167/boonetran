@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="../Honor/Honor.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <div class="dropdown">
+            <a href="../index.html" class="logo"> Phuong Tran </a>
+            <div class="dropdown-content">
+                <a href="../index.html"> Home </a>
+                <a href="../Resume/Resume.html"> Resumé </a>
+                <a href="../Project/Projects.html"> Projects </a>   
+                <a href="#" class="active" >Extracurricular</a>
+                <a href="../Honor/Honor.html" >Honor & Awards</a>
+            </div>
+        </div>
+        <nav>
+            <a href="../index.html"> Home</a>
+            <a href="../Resume/Resume.html" >Resumé</a>
+            <!-- Prj dropdown -->
+            <div class="dropdown">
+                <a href="../Project/Projects.html">Projects</a>
+                <div class="dropdown-content">
+                    <a href="../Project/Oregon Tool/OT Proj.html">Oregon Tool</a>
+                    <a href="../Project/Personal Prj/PriPrj.html">Personal Project</a>
+                    <a href="../Project/Opens Lab/OpensLab.html">Opens Lab</a>
+                </div>
+            </div>
+
+            <a href="#" class="active">Extracurricular</a>
+            <a href="../Honor/Honor.html" >Honor & Awards</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="image-container">
+            <h3><i class="fa-solid fa-network-wired"></i><a href="Sale_clb.html"> Sales Club </a></h3>
+            <p><i class="fas fa-location-dot"></i> North America | 2021 - 2023 </p>
+        </div>
+        <img src="images/IMG_7100.JPG" width="50%">
+    </section>
+
+    <section class="home">
+        <div class="image-container">
+            <h3><i class="fa-solid fa-baseball"></i> Sport Product Developement Club </h3>
+            <p><i class="fas fa-location-dot"></i> Corvallis, OR | 2022 </p>
+        </div>
+        <video id="myVideo" width="20%" autoplay loop muted controls>
+            <source src="images/0ee1b38a8896487890ae2f2fe5bc7850.MOV" type="video/mp4">
+        </video>
+    </section>
+
+    <script>
+        const video = document.getElementById("myVideo");
+        
+        // Define the start and end times in seconds
+        const startTime = 5;  // start playing from the 5th second
+        const endTime = 15;   // stop playing at the 15th second
+        
+        // Seek to the start time when the video is loaded
+        video.addEventListener('loadedmetadata', function() {
+            video.currentTime = startTime;
+        });
+    
+        // Stop video when it reaches the end time
+        video.addEventListener('timeupdate', function() {
+            if (video.currentTime >= endTime) {
+                video.pause();
+            }
+        });
+    </script>
+
+    <section class="home">
+        <div class="image-container">
+            <h3><i class="fa-solid fa-gamepad"></i> KidSpirit </h3>
+            <p><i class="fas fa-location-dot"></i> Corvallis, OR | 2022 </p>
+        </div>
+
+        <div class="images">
+            <img src="images/IMG_6432.jpg" width="50%">
+            <video src="images/IMG_6446.MOV" width="20%" autoplay loop muted controls></video>
+        </div>
+    </section>
+
+    <section class="home">
+        <div class="image-container">
+            <h3><i class="fa-solid fa-utensils"></i> McNary Dining Hall </h3>
+            <p><i class="fas fa-location-dot"></i> Corvallis, OR | 2021 </p>
+        </div>
+        <img src="images/McNary1.jpg" width="50%">
+    </section>
+
+    <section class="home">
+        <div class="image-container">
+            <h3><i class="fa-solid fa-screwdriver-wrench"></i> Thai Duong Rubber Plastic </h3>
+            <p><i class="fas fa-location-dot"></i> Ho Chi Minh, Vietnam | 2020 </p>
+        </div>
+        <div class="images">
+            <img src="images/Screenshot 2024-09-11 223742.png" width="40%">
+            <img src="images/Rubber.png" width="40%">
+        </div>
+    </section>
+
+</body>
+</html>
