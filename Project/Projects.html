@@ -77,26 +77,12 @@
         </div>
         <div class="images">
             <img src="Personal Prj/images PP/Screenshot 2024-09-12 141557.png" width="60%" >
-            <video id="myVideo" width="30%" height="500vh" autoplay muted controls >
-                <source src="Personal Prj/images PP/IMG_9855.MOV">
+            <video id="myVideo" width="30%" height="500vh" autoplay muted loop controls >
+                <source src="Personal Prj/images PP/Untitled video - Made with Clipchamp.mp4">
             </video>
         </div>
     </section>
 
-    <script>
-        const video = document.getElementById("myVideo");
-        const startTime = 13;  // start playing from the 5th second
-        const endTime = 23;
-        video.addEventListener('loadedmetadata', function() {
-            video.currentTime = startTime;
-        });
-        video.addEventListener('timeupdate', function() {
-            if (video.currentTime >= endTime) {
-                video.currentTime = startTime;  // Reset to the start time
-                video.play();  // Play from the start time again
-            }
-        });
-    </script>
 
 </body>
 </html>
