@@ -528,7 +528,7 @@ span{
 .typing-text span::before{
     content: "";
     color: #b74b4b;
-    animation: words 5s infinite;
+    animation: words 10s infinite;
 }
 
 .typing-text span::after{
@@ -539,7 +539,7 @@ span{
     height: 100%;
     border-left: 3px solid transparent;
     right: -8;
-    animation: cursor 0.6s infinite;
+    animation: cursor 1s infinite;
 }
 
 @keyframes cursor{
@@ -549,16 +549,19 @@ span{
 }
 
 @keyframes words{
-    0%, 33.33%{
-        content: "ME & MFG Engineer";
+    0%, 25.00%{
+        content: "ME/MFG Engineer";
     }
-
-    33.34%, 66.66%{
+    25.01%, 50.00%{
         content:"3D Designer";
     }
-    66.67%, 100%{
+    50.01%, 75.00%{
         content:"Researcher";
     }
+    75.01%, 100%{
+        content: "Website Designer";
+    }
+
 }
 
 @media (max-width: 1000px){
