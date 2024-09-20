@@ -526,20 +526,20 @@ span{
 }
 
 .typing-text span::before{
-    content: "ME/MFG Engineer";
+    content: "";
     color: #b74b4b;
-    animation: words 6s infinite;
+    animation: words 5s infinite;
 }
 
 .typing-text span::after{
-    content: "ME/MFG Engineer";
+    content: "";
     background-color: transparent;
     position: absolute;
     width: calc(100% + 8px);
     height: 100%;
     border-left: 3px solid transparent;
     right: -8;
-    animation: cursor 1s infinite;
+    animation: cursor 0.6s infinite;
 }
 
 @keyframes cursor{
@@ -549,13 +549,14 @@ span{
 }
 
 @keyframes words{
-    0, 33%{
-        content:"ME/MFG Engineer";
+    0%, 33.33%{
+        content: "ME/MFG Engineer";
     }
-    34%, 66%{
+
+    33.34%, 66.66%{
         content:"3D Designer";
     }
-    76%, 100%{
+    66.67%, 100%{
         content:"Researcher";
     }
 }
