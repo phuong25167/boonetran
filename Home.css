@@ -528,7 +528,7 @@ span{
 .typing-text span::before{
     content: "";
     color: #b74b4b;
-    animation: words 5s infinite;
+    animation: words 6s infinite;
 }
 
 .typing-text span::after{
@@ -539,7 +539,7 @@ span{
     height: 100%;
     border-left: 3px solid transparent;
     right: -8;
-    animation: cursor 0.6s infinite;
+    animation: cursor 1s infinite;
 }
 
 @keyframes cursor{
@@ -549,6 +549,9 @@ span{
 }
 
 @keyframes words{
+    0, 33%{
+        content:"ME/MFG Engineer";
+    }
     33%, 66%{
         content:"3D Designer";
     }
