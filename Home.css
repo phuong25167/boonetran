@@ -552,10 +552,10 @@ span{
     0, 33%{
         content:"ME/MFG Engineer";
     }
-    33%, 66%{
+    34%, 66%{
         content:"3D Designer";
     }
-    66%, 100%{
+    76%, 100%{
         content:"Researcher";
     }
 }
