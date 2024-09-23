@@ -567,10 +567,11 @@ span{
 @media (max-width: 1000px){
     .home{
         gap: 4rem;
+        overflow: auto;
     }
     .home embed{
-        height: 50vh;
-        width: 50vw;
+        height: 300px;
+        width: 100%;
     }
 }
 
