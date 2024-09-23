@@ -568,6 +568,10 @@ span{
     .home{
         gap: 4rem;
     }
+    .home embed{
+        height: 800px;
+        width: 100%;
+    }
 }
 
 @media(max-width:995px){
